@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="zip-test" default="zip" basedir=".">
+
+    <target name="zip">
+        <zip destfile="out.jar">
+            <zipgroupfileset dir="." includes="*.jar"/>
+        </zip>
+    </target>
+</project>
